@@ -2,6 +2,7 @@
 ## Ejercicio 1
 Para poder pausar mi trabajo actual para empezar a trabajar en la rama master hago uso del comando `git stash`
 > El comando git stash almacena temporalmente (o guarda en un stash) los cambios que hayas efectuado en el código en el que estás trabajando para que puedas trabajar en otra cosa y, más tarde, regresar y volver a aplicar los cambios más tarde.
+
 Despues debo volver a la rama master con el comando `git switch master` y eliminar el archivo ***status.js*** ya sea de forma manual en mi explorador de archivos o desde la terminal con el comando `git rm -f status.js`
 
 ## Ejercicio 2

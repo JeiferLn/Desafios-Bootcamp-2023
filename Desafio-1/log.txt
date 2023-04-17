@@ -1,0 +1,23 @@
+commit 70be583a264f487d5e768fc42cbfae03d89633d8
+Author: Dev-One <jeiferleon@gmail.com>
+Date:   Sun Apr 16 14:52:49 2023 -0500
+
+    Archivo README actualizado para el Desafio-20/04
+
+commit c9f782239ce3cea51d5fd48ead1525843a23e24e
+Author: Dev-One <jeiferleon@gmail.com>
+Date:   Sun Apr 16 14:46:36 2023 -0500
+
+    Solucion del desafio 3
+
+commit b071c13d4b4117ba4660713168d46a0d025450a6
+Author: Dev-One <jeiferleon@gmail.com>
+Date:   Sun Apr 16 14:45:26 2023 -0500
+
+    Solucion del desafio 2
+
+commit fc2f0a155076e98235899705cd293c8cec55c92a
+Author: Dev-One <jeiferleon@gmail.com>
+Date:   Sun Apr 16 14:40:14 2023 -0500
+
+    Solucion del desafio 1

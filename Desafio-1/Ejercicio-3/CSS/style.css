@@ -8,15 +8,13 @@ body{
     width: 1200px;
     margin: auto;
     text-align: center;
-    border: 5px black solid;
 }
 
 header p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 67px;
-    color: white;
-    background-color: black;
+    color: #0a2ff1;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -24,15 +22,15 @@ header p{
 main .div_1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 197px;    
+    font-size: 197px;
+    background-color: black;   
+    color: white; 
 }
 
 main .div_2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 217px;
-    color: white;
-    background-color: black;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -40,20 +38,24 @@ main .div_2 {
 main .div_3{
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
+    color: #0a2ff1;
 }
 
-main strong{
+main .strong_prc{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 60px;
+    color: white;
+    background-color: black;
+    
 }
 
 footer{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 58px;
-    color: white;
-    background-color: black;
+    color: #0a2ff1;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
+    border-bottom: 1px #405ffd solid;
 }

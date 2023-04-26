@@ -8,6 +8,7 @@ body{
     width: 1200px;
     margin: auto;
     text-align: center;
+    border: 5px black solid;
 }
 
 header p{
@@ -16,12 +17,14 @@ header p{
     font-size: 67px;
     color: white;
     background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 main .div_1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 197px;
+    font-size: 197px;    
 }
 
 main .div_2 {
@@ -30,6 +33,8 @@ main .div_2 {
     font-size: 217px;
     color: white;
     background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 main .div_3{
@@ -43,4 +48,6 @@ footer{
     font-size: 58px;
     color: white;
     background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

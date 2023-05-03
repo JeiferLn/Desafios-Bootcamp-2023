@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 65vw;
+    margin: auto;
+    margin-top: 10px;
+}
+
+header h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 37.48px;
+    color: #04146c;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 21.56px;
+    color: #0a2ff1;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 19.97px;
+    color: #04146c;
+}
+
+.contenedor{
+    display: flex;
+}
+
+img{
+    height: 68px;
+}
+
+.contenedor div{
+    margin-left: 10px;
+}
+
+.contenedor div p{
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.box{
+    margin-top: 15px;
+}
+
+.eye{
+    margin-top: 16px;
+}
+
+.card{
+    margin-top: 18px;
+}

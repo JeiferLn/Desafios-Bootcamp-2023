@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 50%;
+    margin: 20px 10px 10px 20px;
+    padding: 10px 10px 10px 40px;
+    border: 1px #d9dcf2 solid;
+}
+
+
+
+header hr{
+    height: 1px;
+    color: rgb(154, 154, 154);
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+header nav, header nav ul{
+    display: flex;
+    margin-bottom: 20px;
+ }
+
+header nav div{
+    background-image: url("../assets/M5-logo-azul.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+}
+
+header nav li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+
+    list-style: none;
+    margin: 10px 5px 10px 5px; 
+}
+
+.p-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 45.33px;
+    color: #2c00cc;
+
+    margin-bottom: 40px;
+}
+
+.p-subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30.67px;
+    color: #04146c;
+    
+    margin-bottom: 30px;
+}
+
+main form label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30.67px;
+    color: #04146c;
+
+    display: block;
+    margin-bottom: 10px;
+}
+
+main form label span{
+    color: red;
+}
+
+main form input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    display: block;
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.textarea{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+main form button{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    border: none;
+
+    width: 150px;
+
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.resetear{
+    background-color: #f98500;
+}
+
+.enviar{
+    background-color:  #2c00cc;
+}

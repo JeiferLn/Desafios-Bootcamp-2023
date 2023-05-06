@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header hr{
+    height: 20px;
+    background-color: #3f59f2;
+}
+
+header nav, header nav ul{
+    display: flex;
+    margin: 20px;
+}
+
+header nav div{
+    width: 5%;
+
+    background-image: url("../assets/M5-logo-azul.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header nav ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+}
+
+.center{
+    text-align: center;
+}
+
+main h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 72pt;
+    color: #0a2ff1;
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+main p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 34.67px;
+    color: #04146c;
+
+    margin-bottom: 40px;
+}
+
+
+main img{
+    width: 100%;
+    
+}
+
+.contenido-main{
+    display: flex;
+    margin-top: 40px;
+}
+
+.text-main{
+    margin: 0px 20px 40px 90px;
+}
+
+main div h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 45.33px;
+    color: #153cfb;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main div h2, main div p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    color: #04146c;
+}
+
+main div h2{
+    font-weight: 700;
+}
+
+main div p{
+    margin-bottom: 15px;
+}
+
+.img-main{
+    width: 50%;
+}
+
+footer{
+    background-color: #3957f1;
+}
+
+.img-logo{
+    width: 10%;
+    margin: 20px 20px 20px 90px;
+}

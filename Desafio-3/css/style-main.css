@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+  body::-webkit-scrollbar-track {
+    background: white;    
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #bab9b9;    
+    border-radius: 20px;       
+    border: 3px  white solid;  
+}
+
 header hr{
     height: 20px;
     background-color: #3f59f2;
@@ -35,7 +49,7 @@ header nav ul li{
     list-style: none;
 }
 
-.center{
+main{
     text-align: center;
 }
 
@@ -55,7 +69,7 @@ main p{
     font-size: 34.67px;
     color: #04146c;
 
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 
@@ -64,16 +78,17 @@ main img{
     
 }
 
-.contenido-main{
+
+.text-main{
     display: flex;
     margin-top: 40px;
 }
 
-.text-main{
-    margin: 0px 20px 40px 90px;
+.text-main div{
+    margin: 0px 80px 40px 90px;
 }
 
-main div h1{
+footer h1{
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 45.33px;
@@ -83,18 +98,18 @@ main div h1{
     margin-bottom: 20px;
 }
 
-main div h2, main div p{
+footer h2, footer p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18pt;
     color: #04146c;
 }
 
-main div h2{
+footer h2{
     font-weight: 700;
 }
 
-main div p{
+footer p{
     margin-bottom: 15px;
 }
 
@@ -102,7 +117,7 @@ main div p{
     width: 50%;
 }
 
-footer{
+.footer{
     background-color: #3957f1;
 }
 

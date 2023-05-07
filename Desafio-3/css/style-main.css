@@ -49,7 +49,7 @@ header nav ul li{
     list-style: none;
 }
 
-main{
+.text-center{
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ main img{
     margin: 0px 80px 40px 90px;
 }
 
-footer h1{
+.text-main h1{
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 45.33px;
@@ -98,26 +98,27 @@ footer h1{
     margin-bottom: 20px;
 }
 
-footer h2, footer p{
+.text-main h2, .text-main p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18pt;
     color: #04146c;
 }
 
-footer h2{
+.text-main h2{
     font-weight: 700;
 }
 
-footer p{
+.text-main p{
     margin-bottom: 15px;
 }
 
 .img-main{
     width: 50%;
+    margin-bottom: -60px;
 }
 
-.footer{
+footer{
     background-color: #3957f1;
 }
 

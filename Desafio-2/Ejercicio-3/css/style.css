@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+  body::-webkit-scrollbar-track {
+    background: white;    
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #C1C1BF;    
+    border-radius: 20px;       
+    border: 3px  white solid;  
+}
+
 header img{
     width: 100%;
     background-size: contain;
@@ -72,6 +86,10 @@ main button{
     height: 50px;
     margin-bottom: 40px;
 }   
+
+main button:hover{
+    cursor: pointer;
+}
 
 footer{
     background-color: #15163d;

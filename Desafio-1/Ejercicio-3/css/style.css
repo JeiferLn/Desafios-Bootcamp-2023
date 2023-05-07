@@ -48,6 +48,10 @@ main form button{
     border: 1px #04146c solid;
 }
 
+main form button:hover{
+    cursor: pointer;
+}
+
 main hr{
     border: 1px #8f8f8f solid;
 
@@ -60,12 +64,14 @@ footer{
     margin-bottom: 20px;
 }
 
-footer p{
+footer a{
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     font-size: 18.67px;
     color: #0a2ff1;
     
     margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
 }
 

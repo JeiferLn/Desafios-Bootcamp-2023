@@ -38,15 +38,25 @@ header nav div{
 }
 
 header nav ul li{
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+}
+
+header nav a{
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #04146c;
+}
 
-    
-    margin-left: 10%;
-    margin-right: 10%;
-    list-style: none;
+header nav a:hover{
+    text-decoration: underline;
+}
+
+.activo{
+    font-weight: 700;
 }
 
 .text-center{

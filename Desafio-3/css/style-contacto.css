@@ -4,14 +4,25 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+  body::-webkit-scrollbar-track {
+    background: white;    
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #C1C1BF;    
+    border-radius: 20px;       
+    border: 3px  white solid;  
+}
+
 body{
     width: 50%;
     margin: 20px 10px 10px 20px;
     padding: 10px 10px 10px 40px;
-    border: 1px #d9dcf2 solid;
 }
-
-
 
 header hr{
     height: 1px;
@@ -36,13 +47,24 @@ header nav div{
 }
 
 header nav li{
+    list-style: none;
+    margin: 10px 5px 10px 5px; 
+}
+
+header nav a{
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #04146c;
+}
 
-    list-style: none;
-    margin: 10px 5px 10px 5px; 
+header nav a:hover{
+    text-decoration: underline;
+}
+
+.activo{
+    font-weight: 700;
 }
 
 .p-title{

@@ -124,8 +124,9 @@ main img{
 }
 
 .img-main{
-    width: 50%;
+    width: 40%;
     margin-bottom: -60px;
+    margin-top: auto; 
 }
 
 footer{

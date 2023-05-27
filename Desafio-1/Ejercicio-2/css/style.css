@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 5.7rem;
+    color: #0a2ff1;
+
+    margin: 40px 0px 40px 10px;
+}
+
+h2{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+@media(max-width: 1440px){
+    h1{
+        font-size: 5rem;
+        margin: 10px 0px 20px 5px;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .card{
+        width: 350px;
+    }
+}
+
+@media(max-width: 992px){
+    .card{
+        margin-top: 10px;
+        width: 325px;
+    }
+
+    h1{
+        margin: 10px 0 10px 35px;
+    }
+}
+
+@media(max-width: 768px){
+    .card{
+        width: 600px;
+        margin-top: 15px;
+    }
+
+    h1{
+        width: 300px;
+        margin-left: 80px;
+    }
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 65.33px;
+    color: #04146c;
+
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0a2ff1;
+}
+
+h3{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #04146c;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+}
+
+.btn{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+
+    border-color: #0a2ff1;
+}
+
+.card-img-top{
+    width: 200px;
+}
+
+@media(max-width: 768px){
+    .row{
+        display: block;
+    }
+
+    .card-img-top{
+        width: 300px;
+    }
+}

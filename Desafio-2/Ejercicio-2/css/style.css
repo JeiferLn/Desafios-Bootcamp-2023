@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    margin-top: 40px;
+}
+
+h1{
+    margin-left: 10%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    font-weight: bold;
+    color: #04146c;
+}
+
+p{
+    margin-left: 10%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
+    color: #04146c;
+}
+
+strong{
+    color: #0a2ff1;
+}
+
+img{
+    width: 80%;
+}
+
+@media (max-width: 768px){
+    .col-md-8{
+        width: 100%;
+    }
+
+    img{
+        max-width: 100%;
+    }
+}

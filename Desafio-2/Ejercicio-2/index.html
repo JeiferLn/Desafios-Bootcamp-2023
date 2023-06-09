@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -13,19 +13,19 @@
     <main class="container">
         <form class="shadow-lg p-3 mb-5 bg-body rounded" id="form">
             <div class="mb-3 row">
-                <label class="col-sm-2 col-form-label">Nombre</label>
+                <label class="col-sm-2 col-form-label">Usuario</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control" id="inputUser" required>
                 </div>
             </div>
             <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Fecha de Nacimiento</label>
+                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
                 <div class="col-sm-10">
-                <input type="date" class="form-control date" id="inputDate" required> 
+                <input type="text" class="form-control" id="inputPassword" required> 
                 </div>
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-primary" type="submit">Validar</button>
+                <button class="btn btn-primary" type="submit">Entrar</button>
             </div>
             <p class="text-center answer" id="answer"></p>
         </form>

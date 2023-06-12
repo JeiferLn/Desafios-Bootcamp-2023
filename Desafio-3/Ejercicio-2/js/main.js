@@ -16,7 +16,8 @@ function agregarArray(){
                 var ta = parseInt(tasa.dataset.value);
                 var pl = parseInt(plazo.dataset.value);
                 var resul = (cap * pl * (ta/100)) / 100;
-                var tot = resul + cap
+                var tot = resul + cap;
+                
                 var nPlan = {
                     capital: cap,
                     tasa: ta,

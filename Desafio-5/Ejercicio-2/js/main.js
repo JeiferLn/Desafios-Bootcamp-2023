@@ -1,10 +1,28 @@
-const boton = document.getElementById("botonGenerar");
-const containerTHead = document.getElementById("contenedorTHead");
+const botoninput = document.getElementById("formContainer");
+const botonAtras = document.getElementById("botonRegresar");
+const tabla = document.getElementById("contenedorTabla");
+const formInput = document.getElementById("formContainer");
 
-boton.addEventListener("click", f=>{
-    generarTabla();
-    generarInputs();
-})
+botoninput.addEventListener("submit",  b1=> {
+    event.preventDefault();
+    cambioHTML();
+});
+
+botonAtras.addEventListener("click", b2=>{
+    event.preventDefault();
+    cambioHTML();
+});
+
+function cambioHTML(){
+    if (tabla.style.display === "none") {
+        tabla.style.display = "table";
+        formInput.style.display = "none";
+
+    } else {
+        tabla.style.display = "none";
+        formInput.style.display = "flex"
+    }
+};
 
 function generarTabla(){
     

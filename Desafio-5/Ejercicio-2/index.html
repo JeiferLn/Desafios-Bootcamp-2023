@@ -9,28 +9,56 @@
 </head>
 <body>
     <main>
-        <div class="d-flex justify-content-center divForm ">
-            <form class="row g-3 shadow p-3 mb-5 bg-body rounded">
-                <div class="col-auto">
+        <div class="d-grid gap-2 col-5 mx-auto">
+            <form class="row g-3 shadow p-3 mb-5 bg-body rounded" id="formContainer" style="display: flex;">
+                <div class="col-6">
                   <label class="visually-hidden">N° de Categorias</label>
-                  <input type="text" readonly class="form-control-plaintext" value="N° de Categorias" >
+                  <input type="text" readonly class="form-control-plaintext" value="N° de Categorias">
                 </div>
-                <div class="col-auto">
-                  <input type="text" class="form-control" id="inputNCategoria" placeholder="Ej: 4" inputmode="numeric" pattern="[0-9]*">
+                <div class="col-6">
+                  <input type="text" class="form-control" id="inputNCategoria" placeholder="Ej: 4" inputmode="numeric" pattern="[0-9]*" required>
                 </div>
-                <div class="col-auto">
-                  <button type="submit" class="btn btn-primary mb-3" id="botonGenerar">Generar Tabla</button>
+                <div class="col-6">
+                    <label class="visually-hidden">Gastos necesarios (%)</label>
+                    <input type="text" readonly class="form-control-plaintext" value="Gastos necesarios (%)">
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" id="inputGNecesarios" placeholder="Ej: 50" inputmode="numeric" pattern="[0-9]*" required>
+                </div>
+                <div class="col-6">
+                    <label class="visually-hidden">Gastos opcionales (%)</label>
+                    <input type="text" readonly class="form-control-plaintext" value="Gastos opcionales (%)">
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" id="inputGOpcionales" placeholder="Ej: 30" inputmode="numeric" pattern="[0-9]*" required>
+                </div>
+                <div class="col-6">
+                    <label class="visually-hidden">Ahorro e Inversiones (%)</label>
+                    <input type="text" readonly class="form-control-plaintext" value="Ahorro e Inversiones (%)">
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" id="inputAhorro" placeholder="Ej: 20" inputmode="numeric" pattern="[0-9]*" required>
+                </div>
+                <p class="text-center shadow-sm p-3 rounded">Recuerda que la sumatoria de los Gastos e inversiones deben de ser del 100%</p>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button type="submit" class="btn btn-primary">Generar Tabla</button>
                 </div>
             </form>
         </div>
 
-        <div class="container" id="contenedorTabla">
-            <table class="table">
+        <div class="container shadow p-2 bg-body rounded" id="contenedorTabla" style="display: none;">
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3" id="botonRegresar">Regresar</button>
+            </div>
+            <table class="table" >
+                
                 <thead>
                     <tr>
                         <th>Categorias</th>
                         <th>Ingreso Total</th>
                         <th>Gastos Necesarios</th>
+                        <th>Gastos opcionales</th>
+                        <th>Ahorros e Inversiones</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -8,5 +8,6 @@ Para poder observer los desafios, cambiamos de rama ***main*** a la rama del des
 * [Desafio 09/05](https://github.com/JeiferLn/Desafios-Bootcamp-2023/tree/Desafio-09/05 "Desafio 09/05")
 * [Desafio 30/05](https://github.com/JeiferLn/Desafios-Bootcamp-2023/tree/Desafio-30/05 "Desafio 30/05")
 * [Desafio 13/06](https://github.com/JeiferLn/Desafios-Bootcamp-2023/tree/Desafio-13/06 "Desafio 13/06")
+* [Desafio 20/07](https://github.com/JeiferLn/Desafios-Bootcamp-2023/tree/Desafio-20/07 "Desafio 20/07")
 
 ## Desafios Pendientes
